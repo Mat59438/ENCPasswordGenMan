@@ -3,9 +3,9 @@ import string
 import random
 import re
 
-e = 5
-d = 37
-N = 94
+e = 5 # used in encryption process
+d = 37 # used in encryption process
+N = 94 # Length of alphaNumKey, used in the encryption process
 alphaNumKey = ['5', '*', 'M', 'i', '8', 't', '}', 'v', 'x', 'Y', '.', 'V', 'K', 'd', 'z', 'a', '|', '3', 'E', 'h', 'U', 'Q', ']', 'X', 'B', 'w', '<', 'k', 'Z', 'c', 'y', "'", 'J', 'b', '@', '\\', '+', 'P', 'R', 'l', 'm', '0', '=', 'A', ')', '[', 'F', '^', 'O', 'q', ':', '6', '"', '$', 'T', ',', 'N', '~', 'W', '%', '!', 'r', '>', 'L', '1', 'G', '7', 'I', 'p', '9', 'C', 'n', '`', 'S', '_', 'f', '-', 'H', 'g', '(', '{', 'e', '&', 'D', '4', 'o', '#', '2', 's', ';', '/', '?', 'j', 'u']
 passKey = []
 PWFileName = "PWMAN.txt"
